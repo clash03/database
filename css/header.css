@@ -1,0 +1,29 @@
+nav {
+ 
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 1000px;
+    filter:drop-shadow(0px 0px 4px rgb(255, 255, 255)) ;
+
+}
+
+nav a {
+    color: #080808;
+    text-decoration: 'Raleway';
+    margin: 0 15px;
+    text-decoration: none;
+    background-color: rgba(254, 254, 254, 0.991);
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    
+
+}
+
+nav a:hover {
+    color: white;
+    box-shadow: 0px 0px 10px rgb(253, 3, 3);
+    background-color: red;
+}

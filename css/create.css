@@ -1,0 +1,135 @@
+html{
+    background-image: url(/picture/bg1.jpg);
+
+
+
+}
+
+
+#logo{
+    position: absolute;
+    box-sizing: border-box;
+    top: 30px;
+    left: 30px;
+
+}
+
+#logo img{
+    width: 60px;
+}
+
+#logo h3{
+    position: absolute;
+    color: white;
+    font-family: 'Raleway';
+    top:-2px ;
+    left: 53px;
+}
+
+.border1{
+    background-color: rgba(255, 255, 255, 0.276);
+    box-sizing: border-box;
+    position: absolute;
+    width: 800px;
+    height: 440px;
+    left: 250px;
+    top: 160px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Raleway';
+    color: white;
+
+}
+
+h2{
+    box-sizing: border-box;
+    position: absolute;
+    top: 60px;
+    left: 570px;
+    width: 200px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.submit2 button{
+    position: absolute;
+    background-color: rgb(2, 111, 252);
+    padding:  5px 15px 5px 15px;
+    border-radius: 20px;
+    top: 560px;
+    left: 520px;
+    color: white;
+    border:solid black;
+}
+
+.submit2 button:hover{
+    background-color: rgb(2, 111, 252);
+    box-shadow: 0px 0px 10px rgb(2, 111, 252);
+    cursor: pointer;
+    border: none;
+    color: black;
+}
+
+
+.cancel a{
+    position: absolute;
+    background-color: red;
+    padding:  5px 15px 5px 15px;
+    border-radius: 20px;
+    top: 560px;
+    left: 700px;
+    color: white;
+    text-decoration: none;
+    border: solid black;
+}
+
+.cancel a:hover{
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0px 0px 10px red;
+    cursor: pointer;
+    border: none;
+    color: black;
+}
+
+
+.error-message {
+    position: absolute;
+    color: red;
+    font-weight: bold;
+    top: 130px;
+    left: 580px;
+    width: 300px;
+    z-index: 44;
+}
+
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.border1 .border2 input{
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    border-radius: 10px;
+    
+}
+
+.border1 .border2 textarea{
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    border-radius: 10px;
+    
+}
+
+.file input{
+    color: black;
+}
